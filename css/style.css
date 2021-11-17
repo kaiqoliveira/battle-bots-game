@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background:url(https://i.gifer.com/xK.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  
+}
+.instrucoes{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+
+
+}
+.layout{
+    display: flex;
+    align-content: space-around;
+    color: green;
+}
+#novaTag{
+    margin-right: 10px;
+}
+.progress-bar{
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.progress-bar-fill{
+    height: 100%;
+    background-color: rgb(141, 50, 245);
+    transition: width 0.5s;
+}
+.progress-bar-value{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.organizacao__barras__vida{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+.progress-bar2{
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-left: 100px;  
+
+   
+}
+.progress-bar-fill2{
+    height: 100%;
+    background-color: rgb(141, 50, 245);
+    transition: width 0.5s;    
+    
+}
+.progress-bar-value2{
+    padding-top: 10px;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+   
+   
+}
+.organizacao__players{
+    display:flex;   
+  
+}
+#novaTag3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player1{
+    margin-right: 100px;
+}
+.main-conteudo{
+    padding: 1%;
+    background-color: white;
+   border-radius: 30px;
+
+}

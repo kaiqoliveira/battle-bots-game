@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Battle bots</title>
+  <style>
+    #canvas {
+      border: 1px solid #000;
+      background-image: url(images/fundogif3.gif);
+      background-size: cover;
+      background-repeat: no-repeat;
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <main class="main-conteudo">
+  <header class="instrucoes">
+    <h2>Batalha de Robôs</h2>
+    <p>Controle o robô cinza com as setas do teclado e o verde com as teclas 'w' =para cima 'a' = esquerda 's' = baixo 'd' =
+      direita.</p>
+      <p>Seu objetivo é colidir com o outro robô em uma disputa de 5 rounds, cada vez que se tocarem, ambos perderão vida.</p>
+    <p>Os robôs começam com 100 de vida e o jogo acaba quando alguém ficar com 0 de vida ou após 5 rodadas, o que
+      acontecer primeiro.</p>
+  </header>
+  <div class="layout">
+
+    <div class="x" id="novaTag"></div>
+
+    <div class="y" id="novaTag2"></div>
+
+
+  </div>
+  <div id="novaTag3">
+
+  <div class="organizacao__players">
+    <div class="player1">
+      <p>Jogador 1</p>
+    </div>
+    <div class="player2">
+      <p>Jogador 2</p>
+    </div>
+
+  </div>
+
+  <div class="organizacao__barras__vida">
+
+    <div class="progress-bar">
+
+      <div class="progress-bar-value">
+        <p class="indicador__vida">100%</p>
+      </div>
+      <div class="progress-bar-fill"></div>
+
+    </div>
+
+    <div class="progress-bar2">
+
+      <div class="progress-bar-value2">
+        <p class="indicador__vida">100%</p>
+      </div>
+      <div class="progress-bar-fill2"></div>
+
+    </div>
+
+  </div>
+  
+ </div>
+  <canvas id="canvas" width="1000" height="500"></canvas>
+  <div class="resultado">
+    <p></p>
+  </div>
+  <script type="text/javascript" src="./js/robo.js"></script>
+  <script type="text/javascript" src="./js/funcoes.js"></script>
+
+</main>
+</body>
+
+</html>
